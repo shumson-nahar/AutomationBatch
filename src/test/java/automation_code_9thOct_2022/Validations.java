@@ -25,7 +25,7 @@ public class Validations {
 			driver.findElement(By.xpath("//input[contains(@id,'login1'")).
 			sendKeys("seleniumpanda@amazonmail.com");
 			
-			driver.findElement(By.xpath("//input[contains9@id,'password'")).
+			driver.findElement(By.xpath("//input[contains@id,'password'")).
 			sendKeys("Selenium@123");
 			
 		}else {

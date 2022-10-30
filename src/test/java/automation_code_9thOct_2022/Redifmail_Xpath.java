@@ -14,20 +14,20 @@ public class Redifmail_Xpath {
 		driver.get("https://rediff.com");
 		driver.manage().window().maximize();
 		
-		/*
-		 * driver.findElement(By.xpath("//input[contains(@class,'signinbtn')]"));
-		 * driver.findElement(By.xpath("//input[contains(@id,'login1')]")).
-		 * sendKeys("seleniumpanda@redifmail.com");
-		 * driver.findElement(By.xpath("//input[contains(@id,'password')]")).sendKeys(
-		 * "Selenium@123");
-		 * driver.findElement(By.xpath("//a[contains(@class, 'mailicon')]")).click();
-		 */
-		//driver.findElement(By.xpath("//*[@class='mailicon']")).click();
-		//driver.findElement(By.xpath("//a[@class=' moneyicon relative']")).click();
-		//driver.findElement(By.xpath("//a[contains(@class,'bmailicon relative')]")).click();
-		//driver.findElement(By.xpath("//a[(@class='bmailicon relative')]")).click();
-		//driver.findElement(By.xpath("//a[contains(@class, 'vdicon')]")).click();
-		//driver.findElement(By.xpath("//a[contains(@class, 'shopicon relative')]")).click();
+		
+		  driver.findElement(By.xpath("//input[contains(@class,'signinbtn')]"));
+		  driver.findElement(By.xpath("//input[contains(@id,'login1')]")).
+		  sendKeys("seleniumpanda@redifmail.com");
+		  driver.findElement(By.xpath("//input[contains(@id,'password')]")).sendKeys(
+		  "Selenium@123");
+		  driver.findElement(By.xpath("//a[contains(@class, 'mailicon')]")).click();
+		 
+		driver.findElement(By.xpath("//*[@class='mailicon']")).click();
+		driver.findElement(By.xpath("//a[@class=' moneyicon relative']")).click();
+		driver.findElement(By.xpath("//a[contains(@class,'bmailicon relative')]")).click();
+		driver.findElement(By.xpath("//a[(@class='bmailicon relative')]")).click();
+		driver.findElement(By.xpath("//a[contains(@class, 'vdicon')]")).click();
+		driver.findElement(By.xpath("//a[contains(@class, 'shopicon relative')]")).click();
 		driver.findElements(By.xpath("//a[contains(@class, 'signin')]")).clear();
 		
 
