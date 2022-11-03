@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="autoomation_code_29thOct_2022.MyFirstTestNGCode">
+      <class name="testng_code_2022.Test_Excution4">
         <methods>
-          <include name="testcase2"/>
-          <include name="afterMethod"/>
-          <include name="beforeMethod"/>
-          <include name="testcase1"/>
+          <include name="beforeTest"/>
+          <include name="tearDown"/>
+          <include name="testcase7"/>
         </methods>
-      </class> <!-- autoomation_code_29thOct_2022.MyFirstTestNGCode -->
+      </class> <!-- testng_code_2022.Test_Excution4 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

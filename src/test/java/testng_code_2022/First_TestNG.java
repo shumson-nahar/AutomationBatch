@@ -1,7 +1,7 @@
 package testng_code_2022;
 
-import org.junit.BeforeClass;
-import org.junit.Test;
+
+
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;

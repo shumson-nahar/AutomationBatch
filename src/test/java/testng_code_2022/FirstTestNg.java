@@ -19,11 +19,9 @@ public class FirstTestNg {
 	@BeforeTest
 	public void launchBrowser() {
 		WebDriverManager.chromedriver().setup();
-		WebDriver driver = new ChromeDriver();
-		
+		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		
 	}
 	@Test
 	public void setUp() {

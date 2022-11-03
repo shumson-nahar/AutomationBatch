@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testng_code_2022.FirstTestNg"/>
+      <class name="session_2ndOctober_2022.MainMethod_Concept"/>
+      <class name="autoomation_code_29thOct_2022.MyFirstTestNGCode"/>
+      <class name="testng_code_2022.First_TestNG"/>
+      <class name="testng_code_2022.Testcases_Excution1"/>
+      <class name="testng_code_2022.TriCombo"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
