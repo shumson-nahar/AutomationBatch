@@ -48,7 +48,7 @@ public class TakingScreenShot {
 				(By.linkText("Best books of November"));
 		File source2=Bookatamazon.getScreenshotAs(OutputType.FILE);
 		File destination2 = new File
-				("C:\\Users\\Shumson Nahar\\Desktop\\Workspace1 NAHAR\\AUTOMATION_BATCH\\screenshots\\\\Screenshots7.png");
+				("C:\\Users\\Shumson Nahar\\Desktop\\Workspace1 NAHAR\\AUTOMATION_BATCH\\screenshots\\Screenshots7.png");
 		FileHandler.copy(source2, destination2);
 		
 		

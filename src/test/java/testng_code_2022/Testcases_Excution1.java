@@ -35,11 +35,18 @@ public class Testcases_Excution1 {
 		driver.findElement(By.name("q")).click();
 		Thread.sleep(3000);
 	}
+	@Test
+	public void testcase3() throws InterruptedException {
+		driver.findElement(By.name("btnK")).sendKeys("iphone");
+		Thread.sleep(3000);
+	}
+	
 		@Test
-		public void testcase3() throws InterruptedException {
-			driver.findElement(By.name("btnK")).sendKeys("iphone");
+		public void testcase4() throws InterruptedException {
+			 By.xpath ( "(//input[@name='btnk']0[1]" );
 			Thread.sleep(3000);
 		}
+
 		
 	
 	 @AfterTest
@@ -49,3 +56,6 @@ public class Testcases_Excution1 {
 	 }
 
 }
+//By searchbox = By.xpath ( "//input[@name='q']" );
+//By Search_btn = By.xpath ( "(//input[@name='btnk']0[1]" );
+//By Facebook_link = By.xpath ( "//a//h3[text()='Facebook - log in or sign up']" );

@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testng_code_2022.Test_Excution4">
+      <class name="testng_code_2022.Testcases_Excution1">
         <methods>
           <include name="beforeTest"/>
           <include name="tearDown"/>
-          <include name="testcase7"/>
+          <include name="testcase5"/>
         </methods>
-      </class> <!-- testng_code_2022.Test_Excution4 -->
+      </class> <!-- testng_code_2022.Testcases_Excution1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
