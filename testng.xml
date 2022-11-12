@@ -2,13 +2,17 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test thread-count="5" name="Test">
+<Parameter name = "Browser1" value = "chrome"/>
+<Parameter name = "Browser2" value = "firefox"/>
+<Parameter name = "Browser3" value = "edge"/>
+<Parameter name = "Url" value = "chrome"/>
+<Parameter name = "Browser1" value = "chrome"/>
+<Parameter name = "Browser1" value = "chrome"/>
     <classes>
-      <class name="testng_code_2022.FirstTestNg"/>
-      <class name="session_2ndOctober_2022.MainMethod_Concept"/>
-      <class name="autoomation_code_29thOct_2022.MyFirstTestNGCode"/>
-      <class name="testng_code_2022.First_TestNG"/>
-      <class name="testng_code_2022.Testcases_Excution1"/>
-      <class name="testng_code_2022.TriCombo"/>
+      <class name="automation6.Parameter2"/>
+      <class name="automation6.Parameter3"/>
+      <class name="automation6.Parameter1"/>
+      <class name="automation6.Patameter4"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

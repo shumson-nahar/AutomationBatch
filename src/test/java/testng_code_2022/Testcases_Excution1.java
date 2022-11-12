@@ -56,6 +56,3 @@ public class Testcases_Excution1 {
 	 }
 
 }
-//By searchbox = By.xpath ( "//input[@name='q']" );
-//By Search_btn = By.xpath ( "(//input[@name='btnk']0[1]" );
-//By Facebook_link = By.xpath ( "//a//h3[text()='Facebook - log in or sign up']" );

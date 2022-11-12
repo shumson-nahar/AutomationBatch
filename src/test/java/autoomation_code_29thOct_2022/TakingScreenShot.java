@@ -44,8 +44,7 @@ public class TakingScreenShot {
 		
 		driver.switchTo().newWindow(WindowType.TAB);
 		driver.navigate().to("https://amazon.com");
-		WebElement Bookatamazon =driver.findElement
-				(By.linkText("Best books of November"));
+		WebElement Bookatamazon =driver.findElement(By.linkText("Best books of November"));
 		File source2=Bookatamazon.getScreenshotAs(OutputType.FILE);
 		File destination2 = new File
 				("C:\\Users\\Shumson Nahar\\Desktop\\Workspace1 NAHAR\\AUTOMATION_BATCH\\screenshots\\Screenshots7.png");
